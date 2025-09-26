@@ -7,7 +7,7 @@ import kotlin.random.Random
 class NotificationService {
 
     fun send(): NotificationResponse {
-        val resultType = NotificationResultType.entries.toTypedArray().random()
+        val resultType = NotificationResultType.random(60)
         val latencyMillis = Random.nextLong(1_000, 10_001)
 
         try {
