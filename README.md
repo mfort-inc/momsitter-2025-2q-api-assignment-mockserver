@@ -46,8 +46,8 @@ $ ./gradlew bootRun
     "result": "SUCCESS" 
   }
   ```
-  | 필드 | 타입 | 설명 |
-    |---|---|---|
+  | 필드     | 타입     | 설명          |
+    |--------|--------|-------------|
   | result | string | `"SUCCESS"` |
 
 - **Response - `500 Internal Server Error`**
@@ -56,8 +56,8 @@ $ ./gradlew bootRun
     "errorMessage": "예외 발생" 
   }
   ```
-  | 필드 | 타입 | 설명        |
-      |---|---|-----------|
+  | 필드           | 타입     | 설명        |
+      |--------------|--------|-----------|
   | errorMessage | string | 에러 메시지 내용 |
 
 ---
